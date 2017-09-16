@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品参数</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="commodityParameter.css">
+    <script src="commodityParameter.js"></script>
+    <style>
+        .affix{
+            top:0;
+            left:0;
+            right:0;
+        }
+    </style>
+</head>
+<body>
+<!-------------------------------------------------导航栏-->
+<div class="nav navbar-inverse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <ul class="nav navbar-nav">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target="#myUl">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div id="myUl" class="collapse navbar-collapse" style="padding-left: 0">
+                            <div id="nav-left">
+                                <a href="">小米商城 </a><span>|</span>
+                                <a href="">MIUI </a><span>|</span>
+                                <a href="">米聊 </a><span>|</span>
+                                <a href="">游戏 </a><span>|</span>
+                                <a href="">多看阅读 </a><span>|</span>
+                                <a href="">云服务 </a><span>|</span>
+                                <a href="">金融 </a><span>|</span>
+                                <a href="">米币 </a><span>|</span>
+                                <a href="">小米商城手机版 </a><span>|</span>
+                                <a href="">问题反馈 </a><span>|</span>
+                                <a href="">Select Region </a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <ul class="nav navbar-nav">
+                        <div class="pull-right" id="nav-right">
+                            <a href="login.html">登录 </a><span>|</span>
+                            <a href="register.html">注册 </a><span>|</span>
+                            <a href="">消息通知</a>
+                            <a  id="shoppingCart" href="#" class="shoppingCart" style="margin-left: 8px"><span class="glyphicon glyphicon-shopping-cart" style="color: white" id="qq"></span><span style="color:white;" id="wx">购物车<span>（0）</span></span></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+<!-------------------------------------------------导航条-->
+<div class="container"  id="miNavTop">
+            <div class="row">
+                <div class="col-lg-1 mi">
+                    <div class="navbar-header">
+                        <a href="http://www.baidu.com" target="_blank"><img src="images/mi.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div id="miNav">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">全部商品分类</a></li>
+                                    <li><a href="#" id="xiaomishouji" data-target="#miXiaLaCaiDan">小米手机</a></li>
+                                    <li><a href="#collapseExample" id="hongmi" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">红米</a></li>
+                                    <li><a href="#">平板 · 笔记本</a></li>
+                                    <li><a href="#">电视</a></li>
+                                    <li><a href="#">影音</a></li>
+                                    <li><a href="#">路由器</a></li>
+                                    <li><a href="#">智能硬件</a></li>
+                                    <li><a href="#">社区</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="input-group miInput" style="border: 1px">
+                                <input type="text" class="form-control input-lg" style="border-radius: 0;" id="input">
+                                 <span class="input-group-btn">
+                                     <button class="btn btn-default btn-lg miButton" type="button" id="searchBtn" style="border: 1px solid #cccccc">
+                                         <span class="glyphicon glyphicon-search" id="search"></span>
+                                      </button>
+                                 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="container-fluid hengxian"></div>
+<!-------------------------------------------------小米电视4A 32英寸-->
+<div class="container-fluid" id="LJGM">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 xiaomiLeft">
+                <span class="span1">小米电视4A 32英寸</span><span class="span2">|</span><span class="span3">小米电视4A 43英寸</span>
+            </div>
+            <div class="col-lg-6  xiaomiRight">
+                <div class="pull-right">
+                    <a href="commodityDetails.html">概述</a><span>|</span>
+                    <a href="commodityParameter.html">参数</a><span>|</span>
+                    <a href="">F码通道</a><span>|</span>
+                    <a href="">安装服务</a><span>|</span>
+                    <a href="">用户评价</a><span>|</span>
+                    <a href="#" class="lijigoumai" style="color: white">立即购买</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container ">
+    <div class="row first-line">
+        <div class="col-lg-3 col-lg-offset-3">
+            <img src="images/canshu1.jpg" alt="" class="canshu1">
+        </div>
+        <div class="col-lg-3 text-center">
+            <ul>
+                <li>64位四核处理器</li>
+                <li> 高清液晶屏</li>
+                <li> 人工智能系统</li>
+                <li>立体声扬声器</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 text-center">
+            <ul>
+                <li>1GB+4GB大内存</li>
+                <li> 第6代画质引擎</li>
+                <li> 海量影视资源</li>
+                <li>仅重4kg</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>显示参数</h2>
+        </div>
+        <div class="col-lg-3">
+            <ul>
+                <li>分辨率：1366x768</li>
+                <li>背光：直下式</li>
+                <li>可视角度：178°</li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <ul>
+                <li>动态响应：6.5毫秒</li>
+                <li>静态对比度：3000:1</li>
+                <li>刷新率：60Hz</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>处理器和存储</h2>
+        </div>
+        <div class="col-lg-2">
+            <div class="Amlogic962 text-center">
+                <p>Amlogic</p>
+                <p>962-SX</p>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <ul>
+                <li>CPU：64位 Cortex A53 四核 1.5GHz</li>
+                <li>GPU：Mali-450 MP3 up to 750MHz</li>
+                <li>内存：1GB</li>
+                <li>闪存：4GB</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>接口及数量</h2>
+        </div>
+        <div class="col-lg-5">
+            <ul>
+                <li>HDMI：2个（含一个ARC）</li>
+                <li>音频输出：S/PDIF x 1个</li>
+                <li>AV：1个</li>
+                <li>模拟信号DTMB：1个</li>
+                <li>USB：1个</li>
+                <li>以太网：1个</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>电视尺寸重量</h2>
+        </div>
+        <div class="col-lg-5 chicun text-center">
+            <img src="images/canshu2.jpg" alt="">
+            <p>裸机不含底座重 3.9kg </p>
+            <p>裸机含底座重 3.94kg</p>
+        </div>
+        <div class="col-lg-4 chicun text-center">
+            <img src="images/canshu3.jpg" alt="">
+            <p>底座宽度 180mm</p>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>电视尺寸重量</h2>
+        </div>
+        <div class="col-lg-5 chicun text-center">
+            <ul>
+                <li>支持壁挂，如有需要请拨打4001005678</li>
+                <li> 注：螺丝直径、长度视产品型号而异，为了避</li>
+                <li>免产品内部损伤，建议您使用专用壁挂架。</li>
+            </ul>
+        </div>
+        <div class="col-lg-4 chicun text-center">
+            <img src="images/canshu4.png" alt="">
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>内置APP</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul class="canshuPhoto">
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: 0px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>在线视频</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -62px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>日历</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -124px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>游戏中心</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -186px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>高清直播器</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -248px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>时尚画报</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -310px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>米果音乐</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -372px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>天气</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -434px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>应用商店</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text-center">
+                        <a href="" style="background: url('images/canshuPhoto.png') no-repeat;background-position: -496px 0;width: 54px;height: 54px;display: block;display: inline-block;"></a>
+                        <p>电视管家</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-3">
+            <h2>包装内容</h2>
+        </div>
+        <div class="col-lg-3">
+            <ul>
+                <li>屏幕：1个</li>
+                <li>支架：2个</li>
+                <li>安装说明：1份</li>
+                <li>遥控器：红外遥控器</li>
+                <li>螺丝：4颗</li>
+                <li>该电视不支持蓝牙语音遥控器</li>
+            </ul>
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="row second-line">
+        <div class="col-lg-12">
+            <p class="shuoming">数据说明：*该电视含开关机等形式的广告，开关机时的广告视频不能删除、更改，且第三方内容的广告视频无法控制；千元新旗舰：仅限小米旗舰店商品； 1GB RAM+4GB ROM 大内存：1GB RAM：由于安装操作系统占据了部分空间，实际可用空间小于1GB，4GB ROM：由于安装操作系统和预装的程序占据了部分存储空间，实际可用存储空间小于4GB；轻至4kg：整机重量（含脚架，不含其它物料）重3.94kg，约等于4kg；34万分钟全球30个国家和地区优质动画：小米电视的动画库最新数量为34万；该电视不支持蓝牙及蓝牙语音遥控器。</p>
+        </div>
+    </div>
+</div>
+<!---------------------------------------------------------底部-->
+<div class="container-fluid" id="dibu">
+    <div class="row">
+        <div class="col-lg-12" style="background-color: white">
+            <div class="container">
+                <div class="row row1">
+                    <div class="col-lg-3 text-center">
+                        <p><span class="glyphicon glyphicon-wrench"></span><span> 预约维修服务</span></p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <p><span class="glyphicon glyphicon-wrench"></span><span> 预约维修服务</span></p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <p><span class="glyphicon glyphicon-wrench"></span><span> 预约维修服务</span></p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <p><span class="glyphicon glyphicon-wrench"></span><span> 预约维修服务</span></p>
+                    </div>
+                </div>
+                <div class="row row2">
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">帮助中心</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">服务支持</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">线下门店</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">关于小米</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">关于我们</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p style="font-size: 14px">特色服务</p>
+                                <br>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                                <p>账户管理</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <p style="color: #ff6700;font-size: 22px">400-100-5678</p>
+                        <p> 周一至周日 8:00-18:00</p>
+                        <p>（仅收市话费）</p>
+                        <img src="images/zaixian.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------版权说明-->
+<div class="container-fluid" id="banquan">
+    <div class="row" style="margin-top: 30px">
+        <div class="col-lg-10 col-lg-offset-2">
+            <img src="images/mi.png" alt="" style="float: left;padding-right: 10px">
+            <div>
+                <p style="margin:0;float: left">
+                    <a href="#" style="color: #757575">小米商城 </a><span>|</span>
+                    <a href="#" style="color: #757575">MIUI </a><span>|</span>
+                    <a href="#" style="color: #757575">米聊 </a><span>|</span>
+                    <a href="#" style="color: #757575">游戏 </a><span>|</span>
+                    <a href="#" style="color: #757575">多看阅读 </a><span>|</span>
+                    <a href="#" style="color: #757575">云服务 </a><span>|</span>
+                    <a href="#" style="color: #757575">阿里云</a><span>|</span>
+                    <a href="#" style="color: #757575">金融 </a><span>|</span>
+                    <a href="#" style="color: #757575">米币 </a><span>|</span>
+                    <a href="#" style="color: #757575">淘宝 </a><span>|</span>
+                    <a href="#" style="color: #757575">小米商城手机版 </a><span>|</span>
+                    <a href="#" style="color: #757575">问题反馈 </a><span>|</span>
+                    <a href="#" style="color: #757575">Select Region </a>
+                </p>
+                <p style="color: #b0b0b0;font-size: 12px;margin:0;float: left">©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</p>
+                <p style="color: #b0b0b0;font-size: 12px;margin:0;float: left">违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <p style="font-size: 20px;text-align: center;color: #b0b0b0;padding: 20px;font-family: 宋体">探索黑科技，小米为发烧而生！</p>
+    </div>
+</div>
+
+</body>
+</html>

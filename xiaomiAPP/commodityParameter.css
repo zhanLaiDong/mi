@@ -1,0 +1,202 @@
+/*-----------------------------------------------导航栏*/
+#nav-left a{
+    line-height: 40px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+#nav-left a:hover{
+    color: white;
+    text-decoration: none;
+}
+#nav-left span{
+    margin: 0 3px;
+}
+#nav-right a{
+    line-height: 40px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+#nav-right a:hover{
+    color: white;
+    text-decoration: none;
+}
+#nav-right span{
+    margin: 0 3px;
+}
+#shoppingCart{
+    height: 40px;
+    background-color: #ff6700;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+#shoppingCartList{
+    border:1px solid grey;
+    width:320px;
+    z-index: 1000;
+    background: white;
+    max-height: 388px;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    right: 15px;;
+}
+#miNav a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: white;
+}
+#miNav a:hover{
+    color: #ff6700;
+    background-color: white;
+}
+#miXiaLaCaiDan{
+    position: absolute;
+    top: 116px;
+    display: none;
+    z-index: 1000;
+}
+#miXiaLaCaiDan ul{
+    margin: 0;
+    padding: 0 142px;
+}
+#miXiaLaCaiDan ul li{
+    float: left;
+    margin-top: -10px;
+}
+.yishu{
+    margin:0 10px;
+}
+#collapseExample ul{
+
+    padding: 0 122px;
+}
+#collapseExample ul li{
+    float: left;
+    /*margin-top: -20px;*/
+}
+#miNavTop{
+    margin-top: 20px;
+}
+.miInput{
+    border-radius: 7px;
+    border: 1px solid #e0e0e0
+}
+.miButton{
+    border-radius: 0;
+    border: 1px solid #e0e0e0
+}
+#searchBtn{
+    text-shadow: none;
+}
+#LJGM{
+    padding: 20px 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.07);
+}
+.hengxian{
+    height: 1px;background-color:#e0e0e0;margin-top: 20px
+}
+.xiaomiLeft .span1{
+    color: #212121;
+    font-size: 18px;
+}
+.xiaomiLeft .span3{
+    color:#616161;
+    font-size: 12px;
+}
+.xiaomiLeft .span2{
+    color:#616161;
+    padding: 0 5px;
+}
+.xiaomiRight span{
+    padding: 0 8px;
+}
+.xiaomiRight a{
+    color:#616161;
+}
+.lijigoumai{
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #ff6700;
+    display: inline-block;
+    text-align: center;
+}
+.first-line{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 80px 0;
+}
+.first-line ul{
+    list-style: none;
+}
+.first-line ul li{
+    line-height: 40px;
+    font-size: 20px;
+}
+.second-line{
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+.second-line ul{
+    list-style: none;
+}
+.second-line ul li{
+    line-height: 40px;
+    font-size: 20px;
+}
+.Amlogic962{
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+    border:1px solid #c0c0c0;
+    padding: 40px 0;
+}
+.Amlogic962 p{
+    color:#c0c0c0 ;
+    font-size: 16px;
+}
+.chicun p{
+    font-size: 18px;
+    color: #333;
+}
+.canshuPhoto li{
+    float: left;
+    margin-top: 30px;
+}
+.canshuPhoto div{
+    width: 160px;
+}
+/*--------------------------------------底部*/
+#dibu{
+    /*margin-top: 50px;*/
+    background-color: white;
+    height: 270px;
+    padding: 0px;
+}
+#dibu .row1 p{
+    line-height: 70px;margin: 0
+}
+#dibu .row1 .span1{
+    font-size: 16px
+}
+#dibu .row1{
+    height: 70px;border-bottom: 1px solid #e0e0e0
+}
+#dibu .row2{
+    margin-top: 40px
+}
+#dibu .row2 p{
+    font-size: 12px
+}
+.shuoming{
+
+}
+.affix{
+    top:0;
+    left: 90px;
+}

@@ -1,0 +1,157 @@
+#nav-left a{
+    line-height: 40px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+#nav-left a:hover{
+    color: white;
+    text-decoration: none;
+}
+#nav-left span{
+    margin: 0 3px;
+}
+#nav-right a{
+    line-height: 40px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+#nav-right a:hover{
+    color: white;
+    text-decoration: none;
+}
+#nav-right span{
+    margin: 0 3px;
+}
+#shoppingCart{
+    height: 40px;
+    background-color: #ff6700;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+#shoppingCartList{
+    border:1px solid grey;
+    width:320px;
+    z-index: 1000;
+    background: white;
+    max-height: 388px;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    right: 15px;;
+}
+#miNav a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: white;
+}
+#miNav a:hover{
+    color: #ff6700;
+    background-color: white;
+}
+#searchBtn{
+    border: 1px solid #cccccc;border-radius: 0
+}
+#miNavTop{
+    margin-top: 20px;
+}
+#photo{
+    background-color: #f5f5f5;
+}
+.shouye{
+    padding-top: 10px;
+    color: #616161;
+}
+.xuangou{
+    font-weight: bold;
+}
+.white{
+    background-color: white;
+    padding: 30px 0 20px 0;
+}
+.more1{
+    background: url("images/more1.jpg") no-repeat;
+    height: 206px;
+    background-position: center;
+    margin: 20px 0;
+}
+.more2{
+}
+.more2 .p1{
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.more2 .p2{
+    color: #757575;
+    margin-bottom: 0px;
+}
+.more2 .p3{
+    color: #757575;
+    margin-bottom: 10px;
+}
+.more2 .span1{
+    color: #ff6700;
+    font-size: 24px;
+}
+.more2>div{
+    padding-left: 50px;
+    background-color: white;
+}
+.more2 a{
+    width: 158px ;
+    height:38px ;
+    display: block;
+    color: #ff6700;
+    text-align: center;
+    border: 1px solid #ff6700;
+    line-height: 38px;
+    margin-top: -20px;
+}
+.more3{
+    background: url("images/more7.jpg") no-repeat;
+    height: 206px;
+    background-position: center;
+    margin: 20px 0;
+}
+.more4{
+    background: url("images/more12.jpg") no-repeat;
+    height: 206px;
+    background-position: center;
+    margin: 20px 0;
+}
+.more4{
+    background: url("images/more17.jpg") no-repeat;
+    height: 206px;
+    background-position: center;
+    margin: 20px 0;
+}
+/*--------------------------------------底部*/
+#dibu{
+    margin-top: 10px;
+    background-color: white;
+    height: 270px;
+}
+#dibu .row1 p{
+    line-height: 70px;margin: 0
+}
+#dibu .row1 .span1{
+    font-size: 16px
+}
+#dibu .row1{
+    height: 70px;border-bottom: 1px solid #e0e0e0
+}
+#dibu .row2{
+    margin-top: 40px
+}
+#dibu .row2 p{
+    font-size: 12px
+}
+#dibu .row2 .text-center{ }
+/*--------------------------------------版权*/
+#banquan{
+    /*margin-top: 10px;*/
+    /*background-color:#fafafa;*/
+}

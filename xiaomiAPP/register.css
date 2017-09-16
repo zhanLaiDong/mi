@@ -1,0 +1,92 @@
+#index{
+    background-color: #ff6700;
+    border-radius: 0px;
+    border: 0px;
+}
+a{
+    color: #0f0f0f;
+}
+#nationnality{
+    position: absolute;
+    top:233px;
+    width: 360px;
+    max-height: 200px;
+    overflow: scroll;
+}
+#phone{
+    position: absolute;
+    top:354px;
+    width: 360px;
+    min-height: 150px;
+}
+#phone option{
+    height: 20px;
+}
+li{
+    list-style: none;
+    height: 30px;
+    margin-left: -30px;
+}
+#miphoto{
+    margin-bottom: 30px
+}
+.btn-group .form-group{
+    margin: 0
+}
+#china{
+    border-radius: 0;width: 316px;padding-top: 5px
+}
+.china-btn{
+    border-radius: 0;border: 1px solid #cccccc;background-color: white
+}
+.shoujihaoma-btn{
+    border-radius: 0px;background-color: white;border: 1px solid #cccccc
+}
+.shuru{
+    border-radius: 0;width: 265px
+}
+.shuru2{
+    border-radius: 0;width: 200px
+}
+#index{
+    width: 359px;
+    height: 45px;
+}
+.dibu{
+    margin-top: 20px;
+}
+.dibu span{
+    padding: 0 10px;
+}
+.dibu p a{
+    color: #757575;
+    text-decoration: none;
+}
+.dibu p{
+    color: #757575;
+}
+#yonghuxieyi{
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+#yinsizhengce{
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+#tel{
+    width: 100px;
+}
+#phone{
+    overflow: scroll;max-height: 200px
+}
+#tel{
+    width: 50px;display:inline-block
+}
+#shuruYZM{
+    width: 198px;
+}
+#china{
+    width: 315px;
+}

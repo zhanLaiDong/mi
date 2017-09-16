@@ -1,0 +1,124 @@
+.toubu{
+    padding: 30px 0;
+}
+.toubu img{
+    float: left;
+}
+.xiaomiSC{
+    font-size: 30px;
+    display: inline;
+    padding-left: 20px;
+
+}
+.mip{
+    font-size: 12px;
+    color: #757575;
+    margin: 0;
+    padding-left: 75px;
+}
+#main{
+    background-color: rgb(20,33,43);
+    padding: 30px 0;
+}
+.dengluP{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.dengluP .span1{
+    color: #ff6700;
+}
+.dengluP .span2{
+    padding: 0 30px;
+}
+.input1{
+    width: 310px;
+    height: 22px;
+    padding: 20px 5px;
+    margin-top: 20px;
+}
+.input2{
+    width: 310px;
+    height: 22px;
+    padding: 20px 5px;
+    margin-top: 15px;
+}
+.btn1{
+    border-radius: 0;
+    background-color: #ff6700;
+    color: white;
+    margin-top: 20px;
+    width: 310px;
+}
+.span2{
+    padding: 0 20px;
+    color: #e0e0e0;
+}
+.zhuceP{
+    color: #999;
+    margin-top: 20px;
+}
+legend{
+    font-size: 14px;
+    color:#999;
+}
+fieldset{
+    margin-top: 100px;
+}
+.qitaFS{
+    padding-bottom: 30px;
+}
+.dibu{
+    margin-top: 50px;
+}
+.dibu span{
+    padding: 0 10px;
+}
+.dibu p a{
+    color: #757575;
+    text-decoration: none;
+}
+.dibu p{
+    color: #757575;
+}
+.zhuceP a{
+    color:#757575 ;
+    text-decoration: none;
+}
+#lcw{
+    position: absolute;
+    top: 148px;
+    left: 10px;
+}
+#zhanghaoDL{
+    z-index: 999;
+}
+#saomiaoDL{
+    display: none;
+    z-index: 999;
+}
+#saomiaoDL img{
+    margin-top: 84px;
+}
+#saomiaoDL span{
+    color: #ff6700;
+}
+#saomiaoDL p {
+    color: #757575;
+    margin: 0;
+}
+#saomiaoDL .p1{
+    margin-top: 20px;
+}
+#saomiaoDL .p2{
+    padding-bottom: 110px;
+}
+#zhanghaodenglu{
+    color: #ff6700;
+    text-decoration: none;
+}
+#saomiaodenglu{
+    color: #666;
+    text-decoration: none;
+}
+
+

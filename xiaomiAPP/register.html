@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="register.css">
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="register.js"></script>
+</head>
+<body>
+<div class="container" style="padding-bottom: 30px">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+                <div class="btn-group">
+                    <p class="text-center"><img id="miphoto" src="images/mi.png" alt=""></p>
+                    <h2 class="text-center">注册小米账号</h2>
+                    <br><br>
+                    <div class="form-group">
+                        <p>国家/地区</p>
+                        <input id="china" type="text" class="input-lg" value="中国"><button id="chinaBtn" class="btn btn-lg dropdown-toggle china-btn" data-toggle="dropdown"><span class="caret"></span></button>
+
+                        <div id="nationnality" class="dropdown-menu" >
+
+                        </div>
+
+                    </div>
+
+                <p class="help-block">成功注册账号后，国家/地区不能修改</p>
+                <p>手机号码</p>
+                <button class="btn btn-lg  btn-lg dropdown-toggle shoujihaoma-btn" data-toggle="dropdown" id="shoujihaomaBtn"><span id="tel">+86 </span><span class="caret"></span></button>
+
+                    <div id="phone" class="dropdown-menu" >
+
+                    </div>
+
+                <input type="text" placeholder="请输入手机号码" class="input-lg shuru" id="shuruSJHM">
+                <br><br>
+                <p>手机验证码</p>
+                <!--<button class="btn btn-lg" style="border:1px solid #cccccc;background-color: #f0f0f0" id="achieve">获取手机验证码</button>-->
+                <input type="button" class="btn btn-lg"  onclick="sendemail()" style="border:1px solid #cccccc;background-color: #f0f0f0;width: 160px" id="achieve" value="获取手机验证码">
+                <input type="text" placeholder="请输入手机验证码" class="input-lg shuru2" id="shuruYZM">
+                 <br><br>
+                    <!--<form action="setNameAndPassword.html" id="form">-->
+                        <input type="submit" class="btn btn-primary btn-lg form-control" value="立即注册" id ="index">
+                    <!--</form>-->
+                <br><br>
+                <p class="help-block">
+                    注册帐号即表示您同意并愿意遵守小米<a id="yonghuxieyi" href="http://www.miui.com/res/doc/eula/cn.html" target="_blank"> 用户协议</a>和<a id="yinsizhengce" href="http://www.miui.com/res/doc/privacy/cn.html" target="_blank"> 隐私政策 </a>
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+</div>
+<div class="container-fluid"  style="background-color: #fafafa;">
+    <div class="row">
+        <div class="col-lg-12 dibu text-center">
+            <p><a href="">简体</a><span>|</span><a href="">繁体</a><span>|</span><a href="">English</a><span>|</span><a href="">常见问题</a></p>
+            <p>小米公司版权所有-京ICP备10046444-<img src="images/zhucebanquan.png" alt="">京公网安备11010802020134号-京ICP证110507号</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

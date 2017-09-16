@@ -1,0 +1,262 @@
+body{
+    background-color: #fafafa
+}
+#header{
+    margin-top: 50px;
+}
+#header p a{
+    text-decoration: none;
+    color: #ababab;
+}
+#header ul {
+    list-style: none;
+    margin-top: 50px;
+}
+#header ul li{
+    float: left;
+    margin-right: 60px;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+#body-div1{
+    padding: 0 20px;
+}
+#body-div3{
+    padding: 0 20px;
+}
+#body-div1 h4{
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+}
+#body-div3 h4{
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+}
+#body-div1 .span1{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#body-div3 .span1{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#body-div1 .span2{
+    color: #9d9d9d;
+}
+#body-div3 .span2{
+    color: #9d9d9d;
+}
+.progress{
+    width: 360px;
+    height: 5px;
+    margin-top: -20px;
+    margin-left: 140px;
+}
+.progress-bar-danger{
+    width: 40%;background-color: red;
+    display: inline;
+}
+#body-div1 .span3{
+    color: #9d9d9d;
+    margin-left: 400px;
+}
+#body-div3 .span3{
+    color: #9d9d9d;
+    margin-left: 400px;
+}
+#body-div1 .span4{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+#body-div3 .span4{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hengxian1{
+    border-bottom: 1px solid #ccc;
+    padding: 0 30px;
+    width: 100%;
+}
+#body-div2 ul{
+    margin: 0;
+}
+#body-div4 ul{
+    margin: 0;
+}
+#body-div2 ul li {
+    margin: 0;
+    width: 788px;
+    padding-top: 35px;
+}
+#body-div4 ul li {
+    margin: 0;
+    width: 788px;
+    padding-top: 35px;
+}
+#body-div2 img{
+}
+#body-div2 .p1{
+    display: inline-block;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+#body-div4 .p1{
+    display: inline-block;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+#body-div2 .p4{
+    display: inline-block;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+#body-div2 .p2{
+    color: #9d9d9d;
+}
+#body-div4 .p2{
+    color: #9d9d9d;
+}
+#body-div2 div{
+    margin-left: -25px;
+}
+#body-div4 div{
+    margin-left: -25px;
+}
+#body-div2 .change{
+    padding: 5px 30px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    margin-top: 40px;
+}
+#body-div4 .change{
+    padding: 5px 30px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    margin-top: 40px;
+}
+#body-div2 div div a{
+    color: #555;
+    text-decoration: none;
+}
+#body-div4 div div a{
+    color: #555;
+    text-decoration: none;
+}
+.hengxian2{
+    border-bottom: 1px solid #ccc;
+    padding: 0 30px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.add{
+    padding: 5px 30px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+}
+.dibu{
+    margin-top: 10px;
+}
+.dibu span{
+    padding: 0 10px;
+}
+.dibu p a{
+    color: #757575;
+    text-decoration: none;
+}
+.dibu p{
+    color: #757575;
+}
+#user{
+    position: absolute;
+    top: 100px;
+    right: 220px;
+}
+#zhanghuming{
+    position: absolute;
+    top: 120px;
+    right: 350px;
+}
+img{
+    margin-right: 20px;
+}
+#zhanghaoanquan{
+    /*display: none;*/
+}
+#gerenxinxi{
+    margin:40px 0;
+    display: none;
+}
+#gerenxinxi img{
+    margin-top: 80px;
+    margin-right: 0;
+}
+#gerenxinxi a{
+    color: #4a90e3;
+}
+#gerenxinxi h3{
+    display: inline;
+}
+#gerenxinxi .col-lg-8 div{
+    padding: 15px 20px;
+    border-bottom: 2px solid #e6e6e6;;
+}
+#gerenxinxi .col-lg-8 div p{
+    margin: 0;
+}
+#gerenxinxi span{
+    color: #666;
+}
+#xiaomifuwu{
+    display: none;
+}
+#xiaomifuwu ul:first-child{
+    margin: 0;
+    padding-left: 35px;
+}
+#xiaomifuwu ul li{
+    margin: 0;
+    width: 430px;
+    margin-top: 30px;
+}
+#xiaomifuwu ul li:last-child{
+    margin-bottom: 30px;
+}
+#xiaomifuwu .col-lg-12{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+#xiaomifuwu .col-lg-12 h3{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 30px 20px 30px;
+}
+#xiaomifuwu p {
+    margin: 0;
+    display:block;
+    color: #9d9d9d;
+}
+#xiaomifuwu span{
+    color: #555;
+    font-weight: bold;
+}
+#xiaomifuwu img{
+    margin-top: 0px;
+    float: left;
+}

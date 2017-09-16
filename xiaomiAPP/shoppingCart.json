@@ -1,0 +1,32 @@
+[
+  {
+    "photo":"",
+    "name":"小米1 红色",
+    "price":"100元",
+    "number":"1"
+  },
+  {
+    "photo":"",
+    "name":"小米2 红色",
+    "price":"200元",
+    "number":"1"
+  },
+  {
+    "photo":"",
+    "name":"小米3 红色",
+    "price":"300元",
+    "number":"1"
+  },
+  {
+    "photo":"",
+    "name":"小米4 红色",
+    "price":"400元",
+    "number":"1"
+  },
+  {
+    "photo":"",
+    "name":"小米5 红色",
+    "price":"500元",
+    "number":"1"
+  }
+]
